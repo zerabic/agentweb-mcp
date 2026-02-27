@@ -1,6 +1,11 @@
 {
   "name": "agentweb-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "mcpName": "io.github.zerabic/agentweb",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zerabic/agentweb-mcp.git"
+  },
   "description": "MCP server for AgentWeb.live - Business directory API with 11M+ businesses",
   "main": "dist/index.js",
   "type": "module",
