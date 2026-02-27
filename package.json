@@ -1,0 +1,34 @@
+{
+  "name": "agentweb-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for AgentWeb.live - Business directory API with 11M+ businesses",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "agentweb-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "agentweb",
+    "business-directory",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
